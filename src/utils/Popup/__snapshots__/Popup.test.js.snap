@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Button functionality shows nothing when isOpen is false 1`] = `<div />`;
+
+exports[`Test the Button functionality shows popup skeleton with data when isOpen is true 1`] = `
+<div>
+  <div
+    class="broccoli-popup-mask"
+  />
+  <div
+    class="broccoli-popup"
+  >
+    <span
+      class="broccoli-popup-close"
+    />
+    <div
+      class="broccoli-popup-container"
+    >
+      Test Popup
+    </div>
+  </div>
+</div>
+`;

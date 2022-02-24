@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header as expected 1`] = `
+<div>
+  <div
+    class="broccoli-homepage"
+  >
+    <div
+      class="broccoli-homepage-container"
+    >
+      <h2>
+        A better way
+        <br />
+        to enjoy every day.
+      </h2>
+      <p>
+        Be the first to know when we launch
+      </p>
+      <button
+        class="broccoli-button broccoli-button--primary"
+        type="button"
+      >
+        Request an invite
+      </button>
+    </div>
+  </div>
+</div>
+`;

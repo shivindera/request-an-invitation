@@ -1,0 +1,28 @@
+.broccoli-header {
+  background: white;
+  height: 64px;
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+.broccoli-header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.broccoli-header-logo {
+  max-height: 32px;
+  width: 100%;
+}
+
+.broccoli-header-text {
+  font-size: 1.5rem;
+  margin-left: 16px;
+}

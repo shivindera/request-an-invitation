@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Request Invite Success as expected 1`] = `
+<div>
+  <div
+    class="broccoli-request-success"
+  >
+    <h2
+      class="broccoli-request-success-heaader"
+    >
+      All done!
+    </h2>
+    <span
+      class="broccoli-request-success-border"
+    />
+    <p
+      class="broccoli-request-success-content"
+    >
+      You will be one of the first to experience
+      <br />
+      Broccoli & Co. when we launch.
+    </p>
+    <button
+      class="broccoli-button broccoli-button--primary"
+      type="button"
+    >
+      Ok
+    </button>
+  </div>
+</div>
+`;

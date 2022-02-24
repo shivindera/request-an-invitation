@@ -1,0 +1,36 @@
+.broccoli-request-invite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.broccoli-request-invite-heaader {
+  font-size: 24px;
+  text-align: center;
+  margin: 24px 0 16px;
+}
+
+.broccoli-request-invite-border {
+  width: 40px;
+  margin: 0 auto 40px;
+  height: 1px;
+  background: black;
+  display: inline-block;
+}
+
+.broccoli-request-invite-form {
+  width: 100%;
+}
+
+.broccoli-request-invite-form button {
+  margin: 24px 0 8px;
+  width: 100%;
+}
+
+.broccoli-request-invite-error {
+  color: #ff3300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  display: block;
+}

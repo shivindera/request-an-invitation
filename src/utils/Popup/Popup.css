@@ -1,0 +1,60 @@
+.broccoli-popup-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgb(0 0 0 / 50%);
+}
+
+.broccoli-popup {
+  min-width: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  z-index: 2;
+  padding: 16px 24px;
+}
+
+.broccoli-popup-close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.broccoli-popup-close::before,
+.broccoli-popup-close::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: -2px;
+  right: 0;
+  height: 2px;
+  background: #000;
+  border-radius: 4px;
+}
+
+.broccoli-popup-close::before {
+  transform: rotate(45deg);
+}
+
+.broccoli-popup-close::after {
+  transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 640px) {
+  .broccoli-popup {
+    max-width: 360px;
+    min-width: auto;
+    width: 100%;
+  }
+}

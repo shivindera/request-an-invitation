@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header as expected 1`] = `
+<div>
+  <header
+    class="broccoli-header"
+  >
+    <div
+      class="broccoli-header-container"
+    >
+      <a
+        class="broccoli-link"
+        href="/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="logo"
+          class="broccoli-header-logo"
+          src="logo.png"
+        />
+      </a>
+      <h1
+        class="broccoli-header-text"
+      >
+        BROCCOLI & CO.
+      </h1>
+    </div>
+  </header>
+</div>
+`;

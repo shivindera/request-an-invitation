@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer as expected 1`] = `
+<div>
+  <footer
+    class="broccoli-footer"
+  >
+    <div
+      class="broccoli-footer-container"
+    >
+      <p>
+        Made with 
+        <span
+          class="broccoli-footer-heart"
+        >
+          ❤
+        </span>
+         at Home
+      </p>
+      <p>
+        © 2022 Broccoli & Co. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</div>
+`;
